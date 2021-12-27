@@ -21,8 +21,8 @@ public class Main {
 		scanner.nextLine();
 		System.out.println("");
 		
-		ATM person = new ATM(name, cardNumber);
-		person.showMenu();
+		ATM myATM = new ATM(name, cardNumber);
+		myATM.showMenu();
 		
 		scanner.close();
 	}
